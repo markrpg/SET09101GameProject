@@ -1,0 +1,9 @@
+Factory Pattern - CharacterFactory creates characters and returns instances of specific type of character.
+
+Observer Pattern - Observable (Square), Observer (Player) type of character. square notifies player if enemies have entered the square, and carries out action depending on players response.
+
+Strategy Pattern - Implemented strategy pattern along with game buttons, created interface that implements ActionListener and encapsulates button behaviour.
+
+Command Pattern - Used to return the game to the last state of current move, returns all characters x and y to last state.
+
+Threads - Game creates a new thread of PlaySound, to play a sound everytime player kills an enemy.
